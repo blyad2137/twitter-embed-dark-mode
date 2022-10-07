@@ -1,0 +1,97 @@
+/* ==UserStyle==
+@name           Twitter Embed Dark Mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    `Forces Twitter Embed into Dark Mode`
+@author         blyad (https://github.com/blyad2137)
+@license	CC BY-NC-SA 4.0
+@homepageURL	https://github.com/blyad2137/twitter-embed-dark-mode
+@supportURL	https://github.com/blyad2137/twitter-embed-dark-mode/issues
+@updateURL	https://userstyles.world/api/style/6815.user.css
+==/UserStyle== */
+
+@-moz-document domain("platform.twitter.com"), domain("publish.twitter.com"), domain("syndication.twitter.com") {
+    .r-kemksi, .WidgetQuery-staticSuggestions, .ModalDialog-content, .r-14lw9ot {
+		background-color: rgb(0, 0, 0);
+	}
+	.r-g2wdr4, .SuggestionList-pickOption.u-textInheritColor:hover, .r-x572qd {
+		background-color: rgb(22, 24, 28);
+	}
+	.r-1tpjcah, .r-4ngtct, .r-1peqgm7 {
+		background-color: rgba(107, 201, 251, 0.1);
+	}
+	.r-1niwhzg {
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.r-vqp9x9 {
+		background-color: rgba(18, 21, 23, 0.7);
+	}
+	.css-1dbjc4n, .css-1dbjc4n, .css-901oao {
+		border-color: black;
+	}
+	.r-1roi411, .r-1ets6dv, .r-38sf4c, .r-1kqtdi0, .r-140t1nj, .r-jxzhtn {
+		border-color: rgb(51, 54, 57);
+	}
+	a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-1niwhzg.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr, a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-1tpjcah.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr, input[type=number]:hover, input[type=text]:hover, input[type=url]:hover, select:hover {
+		border-color: rgb(83, 100, 113) !important;
+	}
+	.WidgetsSelector-item:focus, .WidgetsSelector-item:hover, .ButtonSelector-item:focus, .ButtonSelector-item:hover {
+		border-color: rgb(113, 118, 123);
+	}
+	.r-42olwf {
+		border-color: transparent;
+	}
+	.WidgetsSelector-title.is-dark, .WidgetQuery-staticSuggestions span, .WidgetQueryModal-title, .ButtonSelectModal-title {
+		color: rgb(231, 233, 234);
+	}
+	.r-1dqbpge, .css-901oao.r-1awozwy.r-6koalj.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-1udh08x.r-3s2u2q.r-qvutc0, a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-1blvdjr.r-b88u0q.r-vrz42v.r-bcqeeo.r-qvutc0, [class="css-901oao r-1qd0xha r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0"], .css-901oao.css-cens5h.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .css-901oao.css-1hf3ou5.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"] {
+		color: rgb(231, 233, 234) !important;
+	}
+	.r-13v1u17 {
+		color: rgb(214, 217, 219);
+	}
+	.r-1bwzh9t, .PublishFooter-contents, .SuggestionList-tip, .EmbedCode-code, .EmbedCode-legal, .r-14j79pv, .ButtonSelector-title, .ButtonSelector-description, .WidgetQueryModal-description, .WidgetQueryModal-warning {
+		color: rgb(113, 118, 123);
+	}
+	.css-901oao.css-bfa6kz.r-18u37iz.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0, .css-901oao.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-15zivkp.r-bcqeeo.r-qvutc0 {
+		color: rgb(113, 118, 123) !important;
+	}
+	.r-jwli3a {
+		color: rgb(22, 24, 28);
+	}
+	a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-qvutc0, .css-901oao.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1qd0xha.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0:not(.css-901oao.r-1awozwy.r-jwli3a.r-6koalj.r-18u37iz.r-16y2uox.r-1qd0xha.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0), a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0:not(a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-14j79pv.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0):not(a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-1bwzh9t.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0) {
+		color: rgb(107, 201, 251) !important;
+	}
+	.r-zl6tta, .SuggestionList-highlight, .r-1cvl2hr, .TextButton--link, .EmbedCode-legal a:link, .EmbedCode-legal a:visited, .r-illlq6, .WidgetQueryModal-description a, .WidgetQueryModal-warning a {
+		color: rgb(107, 201, 251);
+	}
+	.WidgetQuery-input, html:not([stylus-iframe]) {
+		background-color: rgb(0, 0, 0);
+		color: rgb(231, 233, 234);
+	}
+	input[type=number], input[type=text], input[type=url], select {
+		background-color: rgb(22, 24, 28);
+		color: rgb(214, 217, 219);
+		border-color: rgb(51, 54, 57);
+	}
+	.EmbedCode-container {
+		background-color: rgb(0, 0, 0);
+		border-color: rgb(51, 54, 57);
+	}
+	.EmbedCode-container:hover {
+		background-color: rgb(22, 24, 28);
+		border-color: rgb(107, 201, 251);	
+	}
+	a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-42olwf.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr, a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr {
+		background-color: rgb(231, 233, 234) !important;
+	}
+	a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-oelmt8.r-42olwf.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr, a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-oelmt8.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr {
+		background-color: rgb(214, 217, 219) !important;
+	}
+	.Icon--tweetSelector, .Icon--arrowRight:hover, .Icon--timelineSelector, .Icon--buttonsSelector, .Icon--chevronDown, .WidgetConfigurator-buttonPreview, .Icon--tweetButton, .Icon--followButton, .Icon--mentionButton, .Icon--hashtagButton, .Icon--messageButton, .Icon--hashtagButtonTall, .Icon--followButtonTall, .Icon--mentionButtonTall, .Icon--messageButtonTall, [src="https://abs-0.twimg.com/emoji/v2/svg/2795.svg"], [src="https://abs-0.twimg.com/emoji/v2/svg/2714.svg"] {
+		filter: invert(1) hue-rotate(180deg) saturate(1.5);
+	}
+	.EmbedCode-code {
+		box-shadow: inset 1px 1px 2px 0 rgb(255 255 255 / 10%);
+	}
+}
