@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Twitter Embed Dark Mode
 @namespace      github.com/blyad2137/twitter-embed-dark-mode
-@version        1.0.0
+@version        1.0.1
 @description    `Forces Twitter Embed into Dark Mode`
 @author         blyad (https://github.com/blyad2137)
-@license	CC BY-NC-SA 4.0
+@license		CC BY-NC-SA 4.0
 @homepageURL	https://github.com/blyad2137/twitter-embed-dark-mode
-@supportURL	https://github.com/blyad2137/twitter-embed-dark-mode/issues
-@updateURL	https://userstyles.world/api/style/6815.user.css
+@supportURL		https://github.com/blyad2137/twitter-embed-dark-mode/issues
+@updateURL		https://userstyles.world/api/style/6815.user.css
 ==/UserStyle== */
 
 @-moz-document domain("platform.twitter.com"), domain("publish.twitter.com"), domain("syndication.twitter.com") {
@@ -44,7 +44,7 @@
 	.WidgetsSelector-title.is-dark, .WidgetQuery-staticSuggestions span, .WidgetQueryModal-title, .ButtonSelectModal-title {
 		color: rgb(231, 233, 234);
 	}
-	.r-1dqbpge, .css-901oao.r-1awozwy.r-6koalj.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-1udh08x.r-3s2u2q.r-qvutc0, a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-1blvdjr.r-b88u0q.r-vrz42v.r-bcqeeo.r-qvutc0, [class="css-901oao r-1qd0xha r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0"], .css-901oao.css-cens5h.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .css-901oao.css-1hf3ou5.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"] {
+	.r-1dqbpge, .css-901oao.r-1awozwy.r-6koalj.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-1udh08x.r-3s2u2q.r-qvutc0, a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-1blvdjr.r-b88u0q.r-vrz42v.r-bcqeeo.r-qvutc0, [class="css-901oao r-1qd0xha r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0"], .css-901oao.css-cens5h.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .css-901oao.css-1hf3ou5.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .r-16dba41[style*="color: rgb(15, 20, 25);"] {
 		color: rgb(231, 233, 234) !important;
 	}
 	.r-13v1u17 {
