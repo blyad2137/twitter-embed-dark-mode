@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Twitter Embed Dark Mode
 @namespace      github.com/blyad2137/twitter-embed-dark-mode
-@version        1.0.1
+@version        1.0.2
 @description    `Forces Twitter Embed into Dark Mode`
 @author         blyad (https://github.com/blyad2137)
-@license		CC BY-NC-SA 4.0
+@license	CC BY-NC-SA 4.0
 @homepageURL	https://github.com/blyad2137/twitter-embed-dark-mode
-@supportURL		https://github.com/blyad2137/twitter-embed-dark-mode/issues
-@updateURL		https://userstyles.world/api/style/6815.user.css
+@supportURL	https://github.com/blyad2137/twitter-embed-dark-mode/issues
+@updateURL	https://userstyles.world/api/style/6815.user.css
 ==/UserStyle== */
 
 @-moz-document domain("platform.twitter.com"), domain("publish.twitter.com"), domain("syndication.twitter.com") {
@@ -41,7 +41,7 @@
 	.r-42olwf {
 		border-color: transparent;
 	}
-	.WidgetsSelector-title.is-dark, .WidgetQuery-staticSuggestions span, .WidgetQueryModal-title, .ButtonSelectModal-title {
+	.WidgetsSelector-title.is-dark, .WidgetQuery-staticSuggestions span, .WidgetQueryModal-title, .ButtonSelectModal-title, .css-901oao.r-1awozwy.r-jwli3a.r-6koalj.r-18u37iz.r-16y2uox.r-1qd0xha.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0 {
 		color: rgb(231, 233, 234);
 	}
 	.r-1dqbpge, .css-901oao.r-1awozwy.r-6koalj.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-1udh08x.r-3s2u2q.r-qvutc0, a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-1blvdjr.r-b88u0q.r-vrz42v.r-bcqeeo.r-qvutc0, [class="css-901oao r-1qd0xha r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0"], .css-901oao.css-cens5h.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .css-901oao.css-1hf3ou5.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0[style*="color: rgb(15, 20, 25)"], .r-16dba41[style*="color: rgb(15, 20, 25);"] {
@@ -55,9 +55,6 @@
 	}
 	.css-901oao.css-bfa6kz.r-18u37iz.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-qvutc0, .css-901oao.r-1qd0xha.r-a023e6.r-16dba41.r-rjixqe.r-15zivkp.r-bcqeeo.r-qvutc0 {
 		color: rgb(113, 118, 123) !important;
-	}
-	.r-jwli3a {
-		color: rgb(22, 24, 28);
 	}
 	a.css-4rbku5.css-18t94o4.css-901oao.r-1loqt21.r-1qd0xha.r-a023e6.r-b88u0q.r-rjixqe.r-bcqeeo.r-qvutc0, .css-901oao.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1qd0xha.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0:not(.css-901oao.r-1awozwy.r-jwli3a.r-6koalj.r-18u37iz.r-16y2uox.r-1qd0xha.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0), a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0:not(a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-14j79pv.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0):not(a.css-4rbku5.css-18t94o4.css-901oao.css-16my406.r-1bwzh9t.r-1loqt21.r-poiln3.r-bcqeeo.r-qvutc0) {
 		color: rgb(107, 201, 251) !important;
@@ -81,6 +78,9 @@
 	.EmbedCode-container:hover {
 		background-color: rgb(22, 24, 28);
 		border-color: rgb(107, 201, 251);	
+	}
+	.css-1dbjc4n.r-1pz39u2.r-14lw9ot.r-1xfd6ze, .css-1dbjc4n.r-14lw9ot.r-sdzlij.r-9hvr93.r-10ptun7.r-10u4nep.r-13tjlyg.r-axxi2z.r-1janqcz, .css-1dbjc4n.r-14lw9ot.r-sdzlij.r-9hvr93.r-10ptun7.r-a0m21o.r-13tjlyg.r-axxi2z.r-1janqcz {
+		background-color: rgb(231, 233, 234);
 	}
 	a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-42olwf.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr, a.css-4rbku5.css-18t94o4.css-1dbjc4n.r-sdzlij.r-1phboty.r-rs99b7.r-1loqt21.r-10ptun7.r-13hce6t.r-15ysp7h.r-4wgw6l.r-1ny4l3l.r-ymttw5.r-o7ynqc.r-6416eg.r-lrvibr {
 		background-color: rgb(231, 233, 234) !important;
